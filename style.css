@@ -116,13 +116,21 @@ body{
 }
 
 .btn:hover{
-    transform:translateY(-5px);
+    transform:translateY(-7px);
+    background-color: green;
+    color: #f1f1f1;
 }
 
 .btn2{
     background:transparent;
     border:2px solid #ffcc00;
     color:#ffcc00;
+}
+.btn2:hover
+{
+    background-color: green;
+    color: #f1f1f1;
+    transform:translateY(-5px);
 }
 
 .hero-image{
